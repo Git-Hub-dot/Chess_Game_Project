@@ -32,6 +32,10 @@ This project offers a visually polished chessboard with smooth animations, legal
 5. Highlighted squares help guide legal moves.
 ***
 ## 📷 <u>**Screenshots:**</u>
+**Normal State:**
+![alt text]()
+**During Gameplay:**
+![alt text]()
 ***
 ## 👨‍💻 <u>**Author**</u>
 **Saroj Dhital** Computer Science Student & Web Developer
