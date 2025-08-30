@@ -1,4 +1,4 @@
-##♟<u> **Online Chess Game**</u>
+## ♟<u> **Online Chess Game**</u>
 An interactive online chess game built by **Saroj Dhital** using HTML, CSS, and JavaScript. 
 This project offers a visually polished chessboard with smooth animations, legal move handling, and a user-friendly design that works on both desktop and mobile.
 ***
