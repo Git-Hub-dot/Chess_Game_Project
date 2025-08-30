@@ -38,5 +38,7 @@ This project offers a visually polished chessboard with smooth animations, legal
 ***
 ## 🌟 <u>**Show Your Support**</u>
 If you like this project:
+
 ⭐ Star this repo
+
 🔗 Share with your friends
