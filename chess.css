@@ -1,0 +1,104 @@
+/* General body styles */
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+/* Page heading */
+h1 {
+  margin-top: 25px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffd500;
+  text-shadow: 1.5px 1.5px 6px rgba(255, 213, 0, 0.7);
+}
+
+/* Chess board container */
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 90px);
+  grid-template-rows: repeat(8, 90px);
+  width: 720px;
+  height: 720px;
+  margin: 15px auto;
+  border-radius: 15px;
+  border: 5px solid #ffd500;
+  box-shadow:
+    0 0 15px rgba(255, 213, 0, 0.6),
+    inset 0 0 10px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(45deg, #1b2735, #182635);
+  overflow: hidden;
+}
+
+/* Each square on the board */
+.square {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.25s ease,
+    transform 0.15s ease;
+  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+/* Light squares */
+.white {
+  background: linear-gradient(145deg, #e6e8ea, #c7ccd1);
+  box-shadow:
+    inset 2px 2px 5px #ffffff,
+    inset -5px -5px 10px #b1b6bd;
+  color: #505050;
+}
+
+/* Dark squares */
+.black {
+  background: linear-gradient(145deg, #2e3440, #1e222b);
+  box-shadow:
+    inset 2px 2px 5px #1c2028,
+    inset -5px -5px 10px #313742;
+  color: #d3d3d3;
+}
+
+/* Hover effect on squares */
+.square:hover {
+  filter: brightness(1.15);
+  transform: scale(1.05);
+  box-shadow:
+    0 0 10px #ffd500,
+    inset 0 0 10px #ffd500;
+}
+
+/* Highlight selected square */
+.selected {
+  outline: 3px solid #ffd500;
+  box-shadow:
+    0 0 15px #ffd500,
+    inset 0 0 10px #ffd500;
+}
+
+/* White pieces style */
+.white-piece {
+  color: #2b2b2b;
+  text-shadow:
+    0 0 4px #fff,
+    0 0 6px #f5f5f5;
+}
+
+/* Black pieces style */
+.black-piece {
+  color: #f0f0f0;
+  text-shadow:
+    0 0 3px #000,
+    0 0 6px #555;
+}
