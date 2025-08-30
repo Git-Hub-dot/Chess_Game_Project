@@ -33,9 +33,9 @@ This project offers a visually polished chessboard with smooth animations, legal
 ***
 ## 📷 <u>**Screenshots:**</u>
 **Normal State:**
-![alt text]()
+![alt text](https://github.com/Git-Hub-dot/Chess_Game_Project/blob/0aa194244e7fdc5d31675f26caa57f6cd97c60b5/Normal%20State.png)
 **During Gameplay:**
-![alt text]()
+![alt text](https://github.com/Git-Hub-dot/Chess_Game_Project/blob/0aa194244e7fdc5d31675f26caa57f6cd97c60b5/During%20Gameplay.png)
 ***
 ## 👨‍💻 <u>**Author**</u>
 **Saroj Dhital** Computer Science Student & Web Developer
